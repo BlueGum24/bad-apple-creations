@@ -27,7 +27,7 @@ body {
 
 .landing-page {
   position: relative;
-  background-image:url(../images/hero.jpg);
+  background-image: url(/images/hero.jpg);
   min-height: 100vh;
   padding: 0;
   background-position: center;
@@ -64,7 +64,7 @@ nav {
 
 .logo {
   border: 3px solid #fff;
-  margin: 19px 0 5px 20px;
+  margin: 19px 0 5px 100px;
   padding: 7px 0px;
   color: #fff;
   float: left;
@@ -83,7 +83,7 @@ nav ul {
   list-style: none;
   overflow: hidden;
   color: #fff;
-  padding: 0;
+  padding: 0 100px 0 0;
   text-align: right;
   margin: 0;
   transition: 1s;
@@ -174,12 +174,15 @@ nav li a:hover {
     position: fixed;
     top: 0;
     margin-top: 16px;
+    margin-left: 15px;
   }
 
   nav ul {
     max-height: 0px;
     background-color: #000;
     width: 100%;
+    padding: 0;
+    margin-left: 0;
   }
 
   .showing {
