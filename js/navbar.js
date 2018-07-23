@@ -25,4 +25,4 @@ $('.thumbnail').hover(function(){
 },
                       function(){
   $(this).children(".description").fadeOut();
-}); 
+});
