@@ -1,10 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Nosifer');
+
+
+body {
+  font-family: Open sans;
+}
+
+.black {
+  background: #000;
+  z-index: 500;
+}
+
+.wrapper {
+  padding: 0 70px 0 70px;
+}
+
+
+
+
+
+
 
 
 
 .landing-page {
   position: relative;
   background-image: url(/images/hero.jpg);
-  min-height: 750px;
+  min-height: 100vh;
   padding: 0;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,7 +38,7 @@
 nav {
   line-height: 60px;
   margin: 0;
-  padding: 0 50px;
+  padding: 0 100px;
   width: 100%;
   height: 80px;
 	list-style: none;
@@ -25,9 +47,31 @@ nav {
   transition: 1s;
 }
 
+.menu-icon {
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+  margin-top: 15px;
+  padding: 0px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
 .logo {
+  border: 3px solid #fff;
+  margin: 19px 0 5px 20px;
+  padding: 7px 0px;
   color: #fff;
   float: left;
+}
+
+.logo h3 {
+  letter-spacing: 5px;
+  padding: 0;
+  font-weight: 300;
+  padding-left: 5px;
+  margin: 0;
 }
 
 nav ul {
@@ -38,7 +82,6 @@ nav ul {
   padding: 0;
   text-align: right;
   margin: 0;
-  padding-right: 40px;
   transition: 1s;
 }
 
@@ -54,8 +97,9 @@ nav li a {
 	padding: 5px;
 	margin-right: 20px;
 	margin-left: 20px;
-  font-family: Lato, sans-serif;
-	font-size: 12px;
+  font-family: Open sans, sans-serif;
+	font-size: 16px;
+  letter-spacing: 1px;
   font-weight: 300;
   text-transform: uppercase;
   transition: color 0.5s ease;
@@ -77,12 +121,32 @@ nav li a:hover {
   text-align: center;
 }
 
+.hero-textbox h1 {
+  letter-spacing: 5px;
+  font-family: nosifer;
+  font-size: 3em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.hero-textbox p {
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
 .hero-button {
-  margin-top: 20px;;
-  color: #000;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  margin-top: 20px;
+  margin-right: 10px;
+  color: #fff;
   padding: 20px;
   width: 195px;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
+  transition: all .2s ease-in;
 }
