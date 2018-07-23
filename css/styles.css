@@ -27,7 +27,7 @@ body {
 
 .landing-page {
   position: relative;
-  background-image: url(/images/hero.jpg);
+  background-image: url(../images/hero.jpg);
   min-height: 100vh;
   padding: 0;
   background-position: center;
