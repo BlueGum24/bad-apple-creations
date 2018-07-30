@@ -364,11 +364,13 @@ footer .right {
   }
 
   .footer-social {
+    margin: 0 auto;
     text-align: center;
   }
 
   .footer-social ul li{
-    padding: 15px 20px 0 0;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
 }
