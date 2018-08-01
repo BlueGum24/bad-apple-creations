@@ -39,6 +39,11 @@ body {
   background-attachment: fixed;
 }
 
+.bg-none {
+  background-image: url('#');
+  background-color: #000;
+  min-height: 80px;
+}
 
 nav {
   line-height: 60px;
@@ -262,6 +267,33 @@ footer .right {
   display: inline-block;
   padding: 15px 40px 0 0;
 }
+
+
+
+/* Products Page */
+
+.products {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.products .row {
+  width: 100%;
+}
+
+.products .row .col-md-3 {
+  display: inline-block;
+}
+
+.products .col-md-3 .product-display {
+  background-color: #999;
+  min-width: 220px;
+  min-height: 220px;
+}
+
+
+
 
 
 
