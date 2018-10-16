@@ -2,8 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Nosifer');
 
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 
 body {
+  margin: 0 0 100px;
   font-family: Open sans;
   overflow: auto;
 }
@@ -23,6 +29,9 @@ body {
     display: table;
 }
 
+h1 {
+  font-size: 5rem;
+}
 
 
 /* Landing Page */
@@ -174,7 +183,7 @@ nav li a:hover {
 }
 
 .about-container {
-  background-color: #FE1C66;
+  background-color: #942f4f;
   min-height: 600px;
   width: 100%;
   padding-top: 100px;
@@ -240,6 +249,12 @@ nav li a:hover {
 /* Footer */
 
 footer {
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  position: absolute;
   background-color: #000;
   margin:0;
   padding: 30px 100px;
@@ -273,9 +288,21 @@ footer .right {
 /* Products Page */
 
 .products {
+  background-color: #942f4f;
+  color: #fff;
   width: 100%;
   text-align: center;
   padding: 30px 0;
+}
+
+.products h1 {
+  border: #fff solid 5px;
+  width: 30rem;
+  padding: 10px 20px;
+  font-weight: 300;
+  margin: 20px auto;
+  background: #942f4f;
+  text-transform: uppercase;
 }
 
 .products .row {
@@ -287,9 +314,17 @@ footer .right {
 }
 
 .products .col-md-3 .product-display {
-  background-color: #999;
+  background-color: #000;
   min-width: 220px;
-  min-height: 220px;
+  min-height: 210px;
+  margin-bottom: 45px;
+  border-radius: 10px;
+}
+
+.product-img {
+  padding-top: 10px;
+  width: 95%;
+  min-height: 200px;
 }
 
 
